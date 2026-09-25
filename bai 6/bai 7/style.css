@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+}
+.danh-muc{
+    background-color: yellow;
+}
+.danh-sach-muc{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    height: 10px;
+    gap: 10px;
+    background-color: red;
+}
+.banner{
+    background-color: green;
+   height: 500px;
+    width: 50%;
+    margin: 50px auto;
+}
+.danh-sach-phim{
+    display: flex;
+    justify-content: space-between;
+}
+.phim{
+    width: 9%;
+    margin: 20px 0;
+    background-color: blue; 
+height: 100px;
+    img{
+        width: 100%;
+     
+        border-radius: 20px;
+        
+    }
+}
