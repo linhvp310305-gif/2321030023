@@ -282,8 +282,8 @@
 
 
         //switch case
-        var d = newDate();
-        var theDay = d.GetDay();
+        var d = new Date();
+        var theDay = d.getDay();
         switch (theDay) {
             case 5:
                 document.writeln("Finally Friday");
@@ -292,67 +292,50 @@
                 document.writeln("Super Saturday");
                 break;
             case 0:
-                document.writeln("Sleepy Sunday");
+                document.writeln("Sleep Sunday");
                 break;
             default:
-                document.writeln("I'm looking forward to this weekend");
-        }
-
-        for (var index = 1; index <=1000;index++) {
-            document.writeln("<br> Xin chào! " + index);
-
-        }
-
-        var danhSachSinhVien = ["Thuy", "Mai" , "Tuan" , "Thang" , "Thao"];
-        document.writeln("<br> Xin Chào" + danhSachSinhVien[0]);
-        for(var i = 0; i < danhSachSinhVien.length; i++){
-            document.writeln(i+" <br>");
-            document.writeln(danhSachSinhVien[i] );
-        }
-
-        var danhSachSinhVien = ["Thúy", "Mai", "Tuấn", "Thắng", "Thảo"];
-
-        for (var i = 0; i < danhSachSinhVien.length; i++){
-            if ( danhSachSinhVien[i] == "Tuấn" || danhsachSinhVien[i]=="Thúy" ) {
-            document. writeln("Xin chào" + danhsachSinhVien[i]);
+                document.writeln("I'm looking forward to this weekend!");
             }
-        }
 
-        
-        
+            //vòng lặp for
+            for (var index = 1; index <= 3; index++) {
+                document.writeln("<br> Xin chào! " + index);
+            }
 
-        
-        
-        
-       
-
-       //popup boxes
-       alert("Xin chào!");
-
-       //confirm
-       var r = confirm("Press a button")
-       if (r == true) {
-          document.write("You pressed OK!")
-       }
-       else{
-            document.write("You pressed Cancel!")
-       }
-       
-       //promt
-       r = prompt("Nhập vào họ tên" , "nhập tên vào đây!");
-       document.write(r)
-       
+            var danhSachSinhVien = ["Thuy", "Mai", "Tuan", "Thang", "Thao"];
+            document.writeln("<br> Xin chào!" + danhSachSinhVien[0]);
+            for (var i = 0; i < danhSachSinhVien.length; i++){
+                document.writeln("<br>" + i + "<br>");
+                document.writeln("Xin chào " + danhSachSinhVien[i]);
+            }
             
+            var danhSachSinhVien = ["Thuy", "Mai", "Tuan", "Thang", "Thao"];
+            for (var i = 0; i < danhSachSinhVien.length; i++){
+                if(danhSachSinhVien[i] == "Thuy" || danhSachSinhVien[i] == "Tuan"){
+                    document.writeln("Xin chào" + danhSachSinhVien[i] )
+                }
+            }
 
+            //popup boxes
+            alert("Xin chào!");
 
+            //confirm
+            var r = confirm("Press a button")
+            if (r == true){
+                document.write("You pressed OK!")
+            }
+            else{
+                document.write("You pressed Cancel!")
+            }
 
+            //prompt
+            r = prompt("Nhập vào họ tên", "nhập tên vào đây!");
+            document.write(r)
+    </script>
 
-
-
-
-            
-        
-
+    <!-- external JS -->
+     <!-- <script src="script.js"></script> -->
 
 
 
