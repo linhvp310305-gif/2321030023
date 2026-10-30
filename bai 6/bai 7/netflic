@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ - Nexflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Đầu trang -->
+     <header>
+        <!-- Danh mục -->
+        <nav class="danh-muc">
+            <ul class="danh-sach-muc">
+                <img class="logo" src="logo.svg" alt="">
+                <li class="muc dang-chon"><a class="lien-ket-muc dang-chon" href="#">Trang chủ</a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#">Nhân vật</a></li>
+                <li class="muc"><a class="lien-ket-muc" href="#"></a>Series</li>
+                <li class="muc"><a class="lien-ket-muc" href="#"></a>Phim</li>
+                <li class="muc"><a class="lien-ket-muc" href="#"></a>Mới & Phổ biến</li>
+                <li class="muc"><a class="lien-ket-muc" href="#"></a>Nexflix của tôi</li>
+                <li class="muc"><a class="lien-ket-muc" href="#"></a>Duyệt tin theo ngôn ngữ</li>
+            </ul>
+        </nav>
+        <div class="chuc-nang">
+            <img class="avata" src="avata.jpg" alt="">
+        </div>
+     </header>
+     <!-- Nọi dung chính trang -->
+      <main>
+        <div class="banner">
+            <img class="banner-img" src="banner.jpg">
+        </div>
+        <!-- Thể loại -->
+        <div class="the-loai">
+            <div class="ten-the-loai">
+                <p>Phổ biến</p>
+            </div>
+            <div class="danh-sach-phim">
+                <div onclick="chonPhim(1)" class="phim">
+                    <img src="hn1.jpg" alt="">
+                </div>
+                <div onclick="chonPhim(2)" class="phim">
+                    <img src="hn2.jpg" alt="">
+                </div>
+                <div onclick="chonPhim(3)" class="phim">
+                    <img src="hn3.jpg" alt="">
+                </div>
+                <div onclick="chonPhim(4)" class="phim">
+                    <img src="hn4.jpg" alt="">
+                </div>
+                <div onclick="chonPhim(5)" class="phim">
+                    <img src="hn5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="the-loai">
+            <div class="ten-the-loai">
+                <p>Những bộ bạn có thể biết</p>
+            </div>
+            <div class="danh-sach-phim">
+                <div class="phim">
+                    <img src="yêu thích 1.jpg" alt="">
+                </div>
+                <div class="phim">
+                    <img src="yêu thích 2.jpg" alt="">
+                </div>
+                <div class="phim">
+                    <img src="yêu thích 3.jpg" alt="">
+                </div>
+                <div class="phim">
+                    <img src="yêu thích 4.jpg" alt="">
+                </div>
+                <div class="phim">
+                    <img src="yêu thích 5.jpg" alt="">
+    </div>
+            </div>
+        </div>
+        <div class="the-loai">
+            <div class="ten-the-loai">
+                <p>Hoạt hình</p>
+            </div>
+            <div class="danh-sach-phim">
+                <div class="phim">
+                    <img src="hn1.jpg" alt="">
+                </div>
+                <div class="phim">
+                    <img src="hn2.jpg" alt="">
+                </div>
+                <div class="phim">
+                    <img src="hn3.jpg" alt="">
+                </div>
+                <div class="phim">
+                    <img src="hn4.jpg" alt="">
+                </div>
+                <div class="phim">
+                    <img src="hn5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+      </main>
+      <!-- Chân trang -->
+       <footer>
+            <div class="nhan-vat">
+                <p>Nhân vật</p>
+                <div class="danh-sach-nhan-vat">
+                    <div class="nv">
+                        <img src="nv1.jpg">
+                    </div>
+                    <div class="nv">
+                        <img src="nv2.jpg">
+                    </div>
+                    <div class="nv">
+                        <img src="nv3.jpg">
+                    </div>
+                    <div class="nv">
+                        <img src="nv1.jpg">
+                    </div>
+                    <div class="nv">
+                        <img src="nv2.jpg">
+                    </div>
+                </div>
+                <div class="thong-tin">
+                    <div class="">
+                    <ul class="damh-sach-thong-tin">
+                        <div class="cot-1">
+                            <li class="">Mô tả âm thanh</li>
+                            <li class="">Việc làm</li>
+                            <li>Tùy chọn cookie</li>
+                        </div>
+                        <div class="cot-2">
+                            <li class="">Thẻ quà tặng</li>
+                            <li class="">điều khoản sử dụng</li>
+                            <li>Trung tâm đa phương tiện</li>
+                        </div>
+                        <div class="cot-3">
+                            <li>Quyền riêng tư</li>
+                            <li>Liên hệ với chúng tôi</li>
+                            <li>Thông tin doanh nghiệp</li>
+                        </div>
+                        <div class="cot-4">
+                            <li>Quan hệ với nhà đầu tư</li>
+                            <li>Thông báo pháp lý</li>
+
+                            var danhSachVid = [
+        
+            
+        {
+            id: 1,
+            ten: "Quỳnh búp bê",
+            duongDanAnh: "can this love.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/tNZG1aLBATY?si=KzrFUt3lqicHTGF2"
+        },
+        {
+            id: 2,
+            ten: "Về nhà đi con",
+            duongDanAnh: "Mai.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/HXWRTGbhb4U?si=PXTh51YQKy8MO2fR"
+
+        },
+        {
+            id: 3,
+            ten: "Hoa hồng trên ngực trái",
+            duongDanAnh: "doraemon.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/ECy8UAT2tgg?si=uOQcBYSnDHVLj4K2"
+
+        },
+        {
+            id: 4,
+            ten: "Hương vị tình thân",
+            duongDanAnh: "mùa rực rỡ của em.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/xpngc71-FCc?si=-3V_szGicJvL-ZjY"
+
+        },
+        {
+            id: 5,
+            ten: "Sống chung với mẹ chồng",
+            duongDanAnh: "adventure time.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/6r2hYdW2g0U?si=H_xvBaL10ZDknu3F"
+
+        },
+    ];
+
+    function chonPhim(id){
+        for (let i= 0; i < danhSachVid.length; i++){
+            if(danhSachVid[i].id ==id){
+                document.getElementsByClassName("video")[0].src =danhSachVid[i].duongDanYoutube
+            }
+        }
+
+    }
+        {
+            id: 1,
+            ten: "Quỳnh búp bê",
+            duongDanAnh: "can this love.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/tNZG1aLBATY?si=KzrFUt3lqicHTGF2"
+        },
+        {
+            id: 2,
+            ten: "Về nhà đi con",
+            duongDanAnh: "Mai.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/HXWRTGbhb4U?si=PXTh51YQKy8MO2fR"
+
+        },
+        {
+            id: 3,
+            ten: "Hoa hồng trên ngực trái",
+            duongDanAnh: "doraemon.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/ECy8UAT2tgg?si=uOQcBYSnDHVLj4K2"
+
+        },
+        {
+            id: 4,
+            ten: "Hương vị tình thân",
+            duongDanAnh: "mùa rực rỡ của em.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/xpngc71-FCc?si=-3V_szGicJvL-ZjY"
+
+        },
+        {
+            id: 5,
+            ten: "Sống chung với mẹ chồng",
+            duongDanAnh: "adventure time.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/6r2hYdW2g0U?si=H_xvBaL10ZDknu3F"
+
+        },
+    ];
+
+    function chonPhim(id){
+        for (let i= 0; i < danhSachVid.length; i++){
+            if(danhSachVid[i].id ==id){
+                document.getElementsByClassName("video")[0].src =danhSachVid[i].duongDanYoutube
+            }
+        }
+
+    }
+        {
+            id: 1,
+            ten: "Quỳnh búp bê",
+            duongDanAnh: "can this love.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/tNZG1aLBATY?si=KzrFUt3lqicHTGF2"
+        },
+        {
+            id: 2,
+            ten: "Về nhà đi con",
+            duongDanAnh: "Mai.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/HXWRTGbhb4U?si=PXTh51YQKy8MO2fR"
+
+        },
+        {
+            id: 3,
+            ten: "Hoa hồng trên ngực trái",
+            duongDanAnh: "doraemon.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/ECy8UAT2tgg?si=uOQcBYSnDHVLj4K2"
+
+        },
+        {
+            id: 4,
+            ten: "Hương vị tình thân",
+            duongDanAnh: "mùa rực rỡ của em.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/xpngc71-FCc?si=-3V_szGicJvL-ZjY"
+
+        },
+        {
+            id: 5,
+            ten: "Sống chung với mẹ chồng",
+            duongDanAnh: "adventure time.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/6r2hYdW2g0U?si=H_xvBaL10ZDknu3F"
+
+        },
+    ];
+
+    function chonPhim(id){
+        for (let i= 0; i < danhSachVid.length; i++){
+            if(danhSachVid[i].id ==id){
+                document.getElementsByClassName("video")[0].src =danhSachVid[i].duongDanYoutube
+            }
+        }
+
+    }
+        {
+            id: 1,
+            ten: "Tiếng yêu này anh dịch được không?",
+            duongDanAnh: "can this love.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/tNZG1aLBATY?si=KzrFUt3lqicHTGF2"
+        },
+        {
+            id: 2,
+            ten: "SSD",
+            duongDanAnh: "Mai.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/HXWRTGbhb4U?si=PXTh51YQKy8MO2fR"
+
+        },
+        {
+            id: 3,
+            ten: "Âm thầm bên em",
+            duongDanAnh: "doraemon.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/ECy8UAT2tgg?si=uOQcBYSnDHVLj4K2"
+
+        },
+        {
+            id: 4,
+            ten: "Tìm em",
+            duongDanAnh: "mùa rực rỡ của em.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/xpngc71-FCc?si=-3V_szGicJvL-ZjY"
+
+        },
+        {
+            id: 5,
+            ten: "Tìm em",
+            duongDanAnh: "adventure time.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/6r2hYdW2g0U?si=H_xvBaL10ZDknu3F"
+
+        },
+    ];
+
+    function chonPhim(id){
+        for (let i= 0; i < danhSachVid.length; i++){
+            if(danhSachVid[i].id ==id){
+                document.getElementsByClassName("video")[0].src =danhSachVid[i].duongDanYoutube
+            }
+        }
+
+    }"
+        },
+        {
+            id: 2,
+            ten: "SSD",
+            duongDanAnh: "Mai.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/HXWRTGbhb4U?si=PXTh51YQKy8MO2fR"
+
+        },
+        {
+            id: 3,
+            ten: "Âm thầm bên em",
+            duongDanAnh: "doraemon.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/ECy8UAT2tgg?si=uOQcBYSnDHVLj4K2"
+
+        },
+        {
+            id: 4,
+            ten: "Tìm em",
+            duongDanAnh: "mùa rực rỡ của em.jpg",
+            duongDanYoutube:"https://www.youtube.com/embed/xpngc71-FCc?si=-3V_szGicJvL-ZjY"
+
+        },
+        {
+           
+
+        },
+    ];
+
+    function chonPhim(id){
+        for (let i= 0; i < danhSachVid.length; i++){
+            if(danhSachVid[i].id ==id){
+                document.getElementsByClassName("video")[0].src =danhSachVid[i].duongDanYoutube
+            }
+        }
+
+    }
+
+    <div class="phim-chan">
+                    <img src="nv7.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="lien-ket-chan-trang">
+            <a href="#">Mô tả âm thanh</a>
+            <a href="#">Trợ giúp</a>
+            <a href="#">Thẻ quà tặng</a>
+
+            <a href="#">Điều khoản sử dụng</a>
+            <a href="#">Quyền riêng tư</a>
+            <a href="#">Tùy chọn cookie</a>
+
+            <a href="#">Thông tin doanh nghiệp</a>
+            <a href="#">Liên hệ với chúng tôi</a>
+            <a href="#">Trung tâm truyền thông</a>
+
+        </div>
+        
+       
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+body{
+    background-color: #1C1B20;
+    color: white;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between ;
+    padding:0 20px ;
+    align-items: center;
+    background-color: black;
+
+}
+.danh-sach-muc{
+    list-style: none;
+    display:flex;
+    gap:10px;
+    padding: 0%;
+}
+
+.lien-ket-muc{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+.dang-chon{
+    background-color:gray;
+}
+
+.muc{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.logo{
+    width: 5%
+}
+
+.avatar{
+    width: 40px;
+    border-radius: 20px;
+}
+
+.muc:hover{
+    background-color: grey;
+}
+
+.banner{
+    width: 90%;
+   /* background-color: red; */
+    margin: 20px auto;
+}
+
+
+.banner-img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.video{
+            width: 100%;
+            height: 500px;
+            background-color: white;
+            border-radius: 20px;
+}
+
+.the-loai{
+    width:90%;
+    height: 20vh;
+
+    margin: 10px auto;
+}
+
+.danh-sach-phim{
+    display: flex;
+    justify-content: space-between;
+}
+
+.phim{
+    width:19%;
+    height: 20vh;
+
+}
+
+img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.phim-chan{
+    width:19%;
+    height: 50vh;
+
+}
+
+.danh-sach-phim-chan{
+    display: flex;
+    justify-content: space-between;
+}
+
+.phim-chan img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.lien-ket-chan-trang {
+    width: 80%;
+    margin: 50px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lien-ket-chan-trang a {
+    width: 33%;
+    color: #888;
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+                        </div>
+                    </ul>
+                    </div>
+
+                </div>
+            </div>
+       </footer> 
+    </body>
+</body> 
+</html>              
